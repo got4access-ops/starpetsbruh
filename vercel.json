@@ -1,0 +1,4 @@
+{
+  "builds": [{ "src": "prices.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/api/prices", "dest": "/prices.js" }]
+}
